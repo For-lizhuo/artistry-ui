@@ -64,7 +64,7 @@ export default function SelectDemo() {
         }}
       />
       <div
-        style={{ marginTop: '4rem', fontSize: '2rem' }}
+        style={{ marginTop: '40px', fontSize: '20px' }}
       >{`You are choosing option "label: ${label}, value: ${value}". `}</div>
     </div>
   );

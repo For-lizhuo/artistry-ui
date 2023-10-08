@@ -4,14 +4,14 @@ import React from 'react';
 export default function LinearProgressDemo() {
   return (
     <>
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <LinearProgress />
       </div>
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <LinearProgress theme='secondary' thickness='10px' />
       </div>
       <div>
-        <LinearProgress theme='success' thickness='1.5rem'/>
+        <LinearProgress theme='success' thickness='15px'/>
       </div>
     </>
   );

@@ -27,13 +27,13 @@ export const ButtonStyle = styled.div<{
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 10px;
   width: ${(props) => props.props.width};
   min-width: fit-content;
   height: ${(props) =>props.props.height};
   min-height: fit-content;
-  border-width: 0.15rem;
-  border-radius: ${(props) => (props.props.circle ? `50%` : `1rem`)};
+  border-width: 1.5px;
+  border-radius: ${(props) => (props.props.circle ? `50%` : `10px`)};
   border-style: ${(props) =>
     props.props.dashed
       ? `dashed`
@@ -52,7 +52,7 @@ export const ButtonStyle = styled.div<{
     background: none;
     padding: 0;
     margin: 0;
-    font-size: 1.6rem;
+    font-size: 16px;
     width: inherit;
     cursor: ${(props) => (props.props.disabled ? 'not-allowed' : 'pointer')};
     color: ${(props) =>
@@ -69,7 +69,7 @@ export const ButtonStyle = styled.div<{
     box-shadow: ${(props) =>
       props.props.disabled
         ? `none`
-        : `0.4rem 0.4rem 0.8rem rgba(0, 0, 0, 0.3)`};
+        : `4px 4px 8px rgba(0, 0, 0, 0.3)`};
   }
 `;
 

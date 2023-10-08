@@ -21,7 +21,7 @@ export const LinearProgressStyle = styled.div<{ props: PropsType }>`
   align-items: center;
   .progress {
     position: relative;
-    border-radius: 1rem;
+    border-radius: 10px;
     flex: 1;
     height: ${(props) => props.props.thickness};
     overflow: hidden;
@@ -71,10 +71,10 @@ export const LinearProgressStyle = styled.div<{ props: PropsType }>`
   }
   .label {
     flex-basis: content;
-    padding: 0 1rem;
+    padding: 0 10px;
     line-height: ${(props) => props.props.thickness};
     text-align: center;
-    font-size: 1rem;
+    font-size: 10px;
     color: rgba(0, 0, 0, 0.6);
   }
 `;

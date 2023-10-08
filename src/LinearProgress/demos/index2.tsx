@@ -4,13 +4,13 @@ import React from 'react';
 export default function LinearProgressDemo() {
   return (
     <>
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <LinearProgress />
       </div>
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <LinearProgress color="green" />
       </div>
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <LinearProgress color="red" />
       </div>
       <div>

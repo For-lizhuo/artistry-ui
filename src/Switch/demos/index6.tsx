@@ -12,7 +12,7 @@ export default function SwitchDemo() {
         flexDirection: 'column',
       }}
     >
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <Switch
           defaultChecked={defaultState}
           handleUpdateChecked={(state) => setChecked(state)}

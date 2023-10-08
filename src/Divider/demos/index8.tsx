@@ -6,13 +6,13 @@ export default function DividerDemo8() {
     <>
       <div
         style={{
-          height: '4rem',
+          height: '40px',
           display: 'flex',
           flexDirection: 'row',
-          fontSize: '1.6rem',
-          marginBottom: '4rem',
+          fontSize: '16px',
+          marginBottom: '40px',
           textAlign: 'center',
-          lineHeight: '4rem',
+          lineHeight: '40px',
         }}
       >
         <div style={{ flex: 1 }}>first</div>
@@ -34,7 +34,7 @@ export default function DividerDemo8() {
         style={{
           display: 'flex',
           flexDirection: 'row',
-          fontSize: '1.6rem',
+          fontSize: '16px',
         }}
       >
         <div style={{ flex: 1 }}>

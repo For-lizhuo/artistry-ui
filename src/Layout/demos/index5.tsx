@@ -3,12 +3,12 @@ import React from 'react';
 export default function DividerDemo() {
   return (
     <div>
-      <div style={{ marginBottom: '4rem' }}>
+      <div style={{ marginBottom: '40px' }}>
         <Divider color="#66ccff" fontColor="#66ccff">
           #66ccff
         </Divider>
       </div>
-      <div style={{ marginBottom: '4rem' }}>
+      <div style={{ marginBottom: '40px' }}>
         <Divider color="red" fontColor="red">
           red
         </Divider>

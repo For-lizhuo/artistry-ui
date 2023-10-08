@@ -15,7 +15,7 @@ export const InputStyle = styled.div<{
   justify-content: center;
   align-items: center;
   font-size: ${(props) => props.props.fontSize};
-  min-width: fit-content;
+  width: fit-content;
   height: ${(props) => props.props.height};
   box-sizing: border-box;
   padding: 5px 0;

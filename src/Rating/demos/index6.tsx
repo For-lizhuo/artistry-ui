@@ -10,10 +10,10 @@ export default function RatingDemo() {
         flexDirection: 'column',
       }}
     >
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <Rating  defaultValue={2}/>
       </div>
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <Rating color='#FF6D75' defaultValue={3} variant='heart'/>
       </div>
       <div>

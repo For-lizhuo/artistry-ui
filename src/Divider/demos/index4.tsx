@@ -3,10 +3,10 @@ import React from 'react';
 export default function DividerDemo() {
   return (
     <div>
-      <div style={{ marginBottom: '4rem' }}>
+      <div style={{ marginBottom: '40px' }}>
         <Divider align="left">left</Divider>
       </div>
-      <div style={{ marginBottom: '4rem' }}>
+      <div style={{ marginBottom: '40px' }}>
         <Divider>center</Divider>
       </div>
       <div>

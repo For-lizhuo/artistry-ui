@@ -15,19 +15,19 @@ export default function LinearProgressDemo() {
   }, []);
   return (
     <>
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <LinearProgress variant="determinate" value={25} />
       </div>
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <LinearProgress variant="determinate" value={50} />
       </div>
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <LinearProgress variant="determinate" value={75} />
       </div>
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <LinearProgress variant="determinate" value={100} />
       </div>
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <LinearProgress variant="determinate" value={progress} />
       </div>
     </>

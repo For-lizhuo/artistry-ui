@@ -12,13 +12,13 @@ export const CollapseStyle = styled.div<{ props: PropsType }>`
   border: 1px solid;
   border-color: ${(props) => props.props.color};
   border-radius: 5px;
-  padding: 0 2rem;
+  padding: 0 20px;
   .header-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 0;
+    padding: 20px 0;
     cursor: ${(props) => (props.props.disabled ? `not-allowed` : `pointer`)};
   }
   .divider {
@@ -28,7 +28,7 @@ export const CollapseStyle = styled.div<{ props: PropsType }>`
     box-sizing: border-box;
   }
   .children {
-    margin: 2rem 0;
+    margin: 20px 0;
   }
   .icon {
     font-size: 16px;

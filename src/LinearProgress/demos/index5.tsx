@@ -22,7 +22,7 @@ export default function LinearProgressDemo() {
   }, []);
   return (
     <>
-      <div style={{ marginBottom: '4rem' }}>
+      <div style={{ marginBottom: '40px' }}>
         <LinearProgress variant="buffer" value={30} buffer={60} />
       </div>
       <div>

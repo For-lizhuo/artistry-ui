@@ -19,38 +19,38 @@ export const AlertStyle = styled.div<{ props: PropsType }>`
     background-color: ${(props) => alertColor[props.props.type].bg};
     width: 100%;
     height: fit-content;
-    min-height: 3rem;
-    padding: 1rem 0;
+    min-height: 30px;
+    padding: 10px 0;
   }
   .alert-icon {
     flex-basis: content;
-    margin-left: 2rem;
+    margin-left: 20px;
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 20px;
   }
   .alert-text {
     flex: 1;
-    font-size: 1.4rem;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
-    margin: 0 2rem;
+    margin: 0 20px;
   }
   .alert-title {
     font-weight: bold;
-    font-size: 1.6rem;
-    padding-bottom: 1rem;
+    font-size: 16px;
+    padding-bottom: 10px;
   }
   .alert-content {
   }
   .alert-close {
-    width: 2.2rem;
+    width: 2.20px;
     min-width: fit-content;
-    height: 2.4rem;
-    padding: 0 0.1rem;
+    height: 24px;
+    padding: 0 0.10px;
     border-radius: ${(props) => (props.props.closeElement ? '0' : '50%')};
-    font-size: 1.6rem;
-    margin: 0 2rem;
+    font-size: 16px;
+    margin: 0 20px;
     display: flex;
     justify-content: center;
     align-items: center;

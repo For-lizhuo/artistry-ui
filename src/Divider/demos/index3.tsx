@@ -3,10 +3,10 @@ import { Divider } from 'artistry-ui';
 export default function DividerDemo() {
   return (
     <div>
-      <div style={{ marginBottom: '4rem' }}>
+      <div style={{ marginBottom: '40px' }}>
         <Divider fontSize={16}>16px</Divider>
       </div>
-      <div style={{ marginBottom: '4rem' }}>
+      <div style={{ marginBottom: '40px' }}>
         <Divider fontSize={20}>20px</Divider>
       </div>
       <div>

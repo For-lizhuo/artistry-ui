@@ -15,9 +15,9 @@ export const SelectStyle = styled.div<{ props: PropsType }>`
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(1rem, -50%);
+    transform: translate(10px, -50%);
     font-size: 12px;
-    padding: 0 0.5rem;
+    padding: 0 5px;
     width: fit-content;
     max-width: ${(props) => props.props.width};
     overflow: hidden;
@@ -27,7 +27,7 @@ export const SelectStyle = styled.div<{ props: PropsType }>`
     background-color: inherit;
   }
   .container {
-    padding: 0 1rem;
+    padding: 0 10px;
     font-size: ${(props) => props.props.fontSize};
     width: ${(props) => props.props.width};
     height: ${(props) => props.props.height};
@@ -44,7 +44,7 @@ export const SelectStyle = styled.div<{ props: PropsType }>`
     flex: 1;
     overflow: hidden;
     white-space: nowrap;
-    padding: 0 0.5rem;
+    padding: 0 5px;
     color: #212121;
     text-overflow: ellipsis;
   }
@@ -56,7 +56,7 @@ export const SelectStyle = styled.div<{ props: PropsType }>`
     position: absolute;
     top: ${(props) => props.props.height};
     left: 0;
-    padding-bottom: 0.2rem;
+    padding-bottom: 0.20px;
     width: ${(props) => props.props.width};
     height: fit-content;
     max-height: 200px;
@@ -70,7 +70,7 @@ export const SelectStyle = styled.div<{ props: PropsType }>`
   }
   .option,
   .option-chosen {
-    padding: 1rem 1.5rem 1rem 1.5rem;
+    padding: 10px 15px 10px 15px;
     overflow-x: hidden;
     text-overflow: ellipsis;
     &:hover {

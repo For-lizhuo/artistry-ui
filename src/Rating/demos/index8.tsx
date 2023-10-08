@@ -12,7 +12,7 @@ export default function RatingDemo() {
         flexDirection: 'column',
       }}
     >
-      <div style={{ paddingBottom: '4rem' }}>
+      <div style={{ paddingBottom: '40px' }}>
         <Rating
           allowHalf
           defaultValue={defaultScore}

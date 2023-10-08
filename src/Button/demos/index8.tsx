@@ -3,7 +3,7 @@ import { Button } from 'artistry-ui';
 import React from 'react';
 
 export default function ButtonDemo() {
-  const buttonStyle = { margin: '1rem' };
+  const buttonStyle = { margin: '10px' };
 
   return (
     <div style={{ display: 'flex', flexWrap: 'wrap' }}>

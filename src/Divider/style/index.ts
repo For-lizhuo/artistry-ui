@@ -35,7 +35,7 @@ export const DividerStyle = styled.div<{
   }
   .center {
     flex-basis: content;
-    padding: ${(props) => (props.props.vertical ? '1rem' : '0 1rem')};
+    padding: ${(props) => (props.props.vertical ? '10px' : '0 10px')};
     font-size: ${(props) => props.props.fontSize + 'px'};
   }
   .right {

@@ -4,7 +4,7 @@ import React from 'react';
 export default function AlertDemo() {
   return (
     <div>
-      <Alert type="info" title="info" style={{ marginBottom: '2rem' }}>
+      <Alert type="info" title="info" style={{ marginBottom: '20px' }}>
         Here is an info text with title.
       </Alert>
       <Alert type="success" title="success">

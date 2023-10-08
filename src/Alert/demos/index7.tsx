@@ -8,7 +8,7 @@ export default function AlertDemo() {
       <Alert
         type="info"
         icon={<QuestionCircleOutlined />}
-        style={{ marginBottom: '2rem' }}
+        style={{ marginBottom: '20px' }}
       >
         Here is an alert with custom icon.
       </Alert>
