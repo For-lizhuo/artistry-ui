@@ -4,13 +4,15 @@ import React, { useEffect } from 'react';
 export default function LinearProgressDemo() {
   const [progress, setProgress] = React.useState(0);
   useEffect(() => {
-    const timer = setInterval(() => {
+    function animation() {
       setProgress((prevProgress) =>
         prevProgress >= 100 ? 0 : prevProgress + 1,
       );
-    }, 100);
+      requestAnimationFrame(animation);
+    }
+    const id = requestAnimationFrame(animation);
     return () => {
-      clearInterval(timer);
+      cancelAnimationFrame(id);
     };
   }, []);
   return (
